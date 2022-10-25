@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Popup Download</title>
+</head>
+
+<body>
+    <h1>Download with popup page</h1>
+
+    <p>Trying to download with popup page.</p>
+    <br />
+    <p>Pros: Download file and close page. User may not notice.</p>
+    <br />
+    <p>Cons: Browswer nowadays deny popup page as a default setting.</p>
+
+    <script type="text/javascript">
+        onload = function() {
+            window.open("./LandingPage.html", 'MsgWindow', 'width=1,height=1');
+        }
+    </script>
+</body>
+
+</html>

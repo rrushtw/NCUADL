@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LandingPage</title>
+</head>
+
+<body>
+
+    <h1>Download page</h1>
+
+    <p>This page would download file and close itself.</p>
+
+    <a href="./Friendly.docx" id="downloadFile" download>Download</a>
+
+    <script type="text/javascript">
+        onload = function() {
+            document.getElementById('downloadFile').click();
+
+            setTimeout(function() {
+                window.close();
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>
