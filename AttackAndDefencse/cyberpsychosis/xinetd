@@ -1,0 +1,12 @@
+service cyberpsychosis
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /home/cyberpsychosis/run.sh
+        socket_type = stream
+        protocol = tcp
+        user = cyberpsychosis
+        port = 10101
+        flags = REUSE
+}

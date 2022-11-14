@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  cyberpsychosis:
+    container_name: cyberpsychosis
+    build: ./
+    volumes:
+      - ./share:/home/cyberpsychosis:ro
+      - ./xinetd:/etc/xinetd.d/cyberpsychosis:ro
+    ports:
+      - "10004:10101"
+    expose:
+      - "10101"
+    restart: always
