@@ -1,0 +1,12 @@
+service modohayaku
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /home/modohayaku/run.sh
+        socket_type = stream
+        protocol = tcp
+        user = modohayaku
+        port = 10101
+        flags = REUSE
+}
