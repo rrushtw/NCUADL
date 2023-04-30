@@ -1,0 +1,10 @@
+# Python
+# Folders
+__pycache__/
+
+# Files
+chromedriver.exe
+
+MyAccount.json
+Teacher.json
+ProjectMembers.json
