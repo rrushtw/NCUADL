@@ -1,7 +1,11 @@
 # Python
-# Folders
 __pycache__/
+*.spec
+
+# Folders
 .vscode/
+build/
+dist/
 
 # Files
 chromedriver.exe
@@ -9,3 +13,11 @@ chromedriver.exe
 MyAccount.json
 Teacher.json
 ProjectMembers.json
+
+# Project: Cookie Banner
+CookieBanner/*.zip
+CookieBanner/*.exe
+CookieBanner/*.bat
+CookieBanner/*.reg
+CookieBanner/*.xlsm
+CookieBanner/*.xlsx
